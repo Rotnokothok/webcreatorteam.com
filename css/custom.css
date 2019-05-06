@@ -1,0 +1,388 @@
+/*All Custom Css Will Add here*/
+.details{   
+    margin-top:10px;    
+    margin-bottom:10px;    
+} 
+
+nav.sticky {
+    position: -webkit-sticky; /* Safari */
+    position:sticky;
+    top: 0px;
+    z-index:101;
+}
+.somespace{
+    margin-top:10px;
+} 
+div.box{
+    border:1px solid #04cba1;
+    margin:auto;
+    float:left;
+    color:red;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding:10px 10px;
+    width:40%;
+    margin-left:15px;
+
+}
+div.box a{
+    text-decoration: none;
+    color:red;
+    
+}
+div.box:hover{
+    background-color:#04cba1;
+    color:red;
+    border:1px solid red;
+}
+
+#webCircle{
+    height:150px;
+    width:150px;
+    border:1px solid red;
+    color: #33ffff;
+    border-radius: 75px;
+    background-image:url(../imeages/web-design-icon.png);
+    background-size: 70% 70%;
+    background-position: center;
+    background-repeat:no-repeat;    
+}
+
+
+#digitalCircle{
+    height:150px;
+    width:150px;
+    border:1px solid red;
+    color: #33ffff;
+    border-radius: 75px;
+    background-image:url( ../imeages/digital-marketing-icon.png);
+    background-size: 70% 70%;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+}
+#webdevCircle{
+    height:150px;
+    width:150px;
+    border:1px solid red;
+    color: #33ffff;
+    border-radius: 75px;
+    background-image:url(../imeages/web-development-icon.png);
+    background-size: 70% 70%;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+}
+
+
+.formCenter{
+    height:auto;
+    width:80%;
+    padding:50px;
+    margin:auto;
+}
+
+.navbar-top{
+    position:fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body{margin:0px;
+padding:0px;}
+
+
+
+div.nameHeading{
+    margin-top:5px;
+    font-size: 20px;
+/*    border:1px solid red;*/
+/*    background-color: blue;*/
+color: #ff0000;
+
+    text-align:center;
+    margin:auto;
+}
+
+span.detels{
+  
+  color:blue; 
+}
+
+
+.skill{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+
+.adminpic{
+    height:200px;
+    width:100%;
+    
+}
+
+
+.title{
+   color:greenyellow;
+   font-weight: bolder;
+   text-align: center;
+   font-size:50px;
+   padding: 25px 0px;
+   
+   -webkit-animation: myanimation 2s infinite; /* Chrome, Safari, Opera */
+    animation: myanimation 5s infinite;  
+}
+h1, br {
+    padding:0px;
+    margin:0px;
+}
+.title-height{height:100px;}
+h1{padding:0px;
+   color: #cc0000;
+font-size:1.5em;
+font-family:font1;
+}
+h1:hover{font-family:font3; }
+.footer{
+    
+    background-color:rgba(204,204,204,.7);
+    width:100%;
+    height:250px;
+	color: #000;
+}
+.footer_menu{
+    list-style-type: none;
+}
+
+.footer_menu li a {
+    color: #000;
+}
+
+
+.footer2{
+    background-color: #666666;
+    padding: 12px 0px 0px 0px;
+    color: white;
+}
+.footer2 a {
+     color: white;
+}
+
+.social-icon a{
+    float: right;
+    margin: 0px 5px;
+    padding-bottom: 5px;
+}
+
+@font-face{
+    font-family:font1;
+    src: url(../fonts/BlackOpsOne-Regular.ttf)
+}
+@font-face{
+    font-family:font2;
+    src: url(../fonts/OleoScript-Regular.ttf)
+}
+@font-face{
+    font-family:font3;
+    src: url(../fonts/FrederickatheGreat-Regular.ttf)
+}
+
+/* Standard syntax */
+@keyframes myanimation {
+    0% {text-shadow: 0px 20px 30px aqua; color:#660066;}
+    100% {text-shadow: 0px 20px 30px aqua; color:red;}
+   
+}
+@media screen and (min-width:1px) and (max-width:520px){
+    
+.h1{padding:0px;
+    color: #660066;
+font-family:font1;
+font-size: 30px;
+/*margin-bottom: 10px;*/
+}
+.marginCenter{
+    margin:auto;
+    text-align: center;
+    font-size:18px;   
+} 
+
+.logohide{
+    display:none;
+}
+
+}
+@media screen and (min-width:1px) and (max-width:769px){
+    
+  
+.androidHide{
+    display:none;
+}
+.androidFont{
+    font-size:14px;
+}
+
+}
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: 100% 100%; 
+    opacity:.5;
+    
+}
+video#bgvid:hover{
+    opacity:1;
+}
+
+
+
+/*team Member CSS*/
+.member{
+ width:100%;
+ height:200px;
+ 
+ 
+}
+
+.memberImg{
+    height:100px;
+    width:100px;
+    margin-bottom:-40px;
+}
+.memberDetails{
+    background-color: rgba(102,0,102,.8);
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    height:auto;
+    width:100%;
+    padding: 10px 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media screen and (min-width:1px) and (max-width:769px){
+    
+  
+
+
+.memberImg{
+    margin-bottom:0px;
+    margin-left: 30%;
+    z-index: auto;
+    
+}
+}
+
+/* team css end */
+
+/*End Team CSS */
+
+.progress-bar, .progress-bar-success{
+  text-align: left;
+  padding-left: 50px;
+  color:blue;
+  font-weight: bold;
+}
+
+/* css for service page */
+.product{
+    background-color:rgba(0,1,238,0.2);
+    height:300px;
+    border:1px solid blue;
+    border-radius: 5px;
+    position:relative;
+    padding-top:100px;
+    text-align: center;
+}
+.product:after{
+   content: "";
+   background:rgba(0,0,0,.2);
+   height:100%;
+   width:0%;
+   transition:.30s;
+   position: absolute;
+   top:0;
+   left: 0;
+   opacity:0;
+   
+}
+.product:hover:after{
+   content:"";
+   background:#00D094;
+   height:100%;
+   width:100%;
+   position: absolute;
+   opacity:1;
+   z-index: -1;
+}
+.topme{
+    z-index:1;
+    color:#ffffff;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*This is Extra CSS*/
+/**{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin-top:0px;
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+[class*='col-']{
+    float:left;
+    border:.5px solid black;
+}
+
+.imgRespnsive{
+    height:100%;
+    width:100%;
+}
+@font-face {
+  font-family: fgfgf;
+  src: sds;
+}*/
